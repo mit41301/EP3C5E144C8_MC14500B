@@ -1,0 +1,321 @@
+# Copyright (C) 1991-2008 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		mc14500cpu_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C5E144C8
+set_global_assignment -name TOP_LEVEL_ENTITY mc14500cpu
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 8.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:52:53  AUGUST 30, 2008"
+set_global_assignment -name LAST_QUARTUS_VERSION 8.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_palace
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 144
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 14622752 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name POWER_USE_INPUT_FILES OFF
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name SIMULATOR_GENERATE_SIGNAL_ACTIVITY_FILE ON
+set_global_assignment -name SIMULATOR_SIGNAL_ACTIVITY_FILE_OUTPUT_DESTINATION mc14500cpu.saf
+set_global_assignment -name SIMULATOR_GENERATE_POWERPLAY_VCD_FILE OFF
+set_global_assignment -name AUTO_ROM_RECOGNITION OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name ENABLE_ADVANCED_IO_TIMING ON
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name DEVICE_FILTER_PACKAGE TQFP
+set_location_assignment PIN_22 -to clk_ext
+set_location_assignment PIN_144 -to in[15]
+set_location_assignment PIN_143 -to in[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[1]
+set_location_assignment PIN_125 -to in[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[2]
+set_location_assignment PIN_126 -to in[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[3]
+set_location_assignment PIN_127 -to in[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[4]
+set_location_assignment PIN_128 -to in[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[6]
+set_location_assignment PIN_132 -to in[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[5]
+set_location_assignment PIN_129 -to in[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[7]
+set_location_assignment PIN_133 -to in[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[8]
+set_location_assignment PIN_135 -to in[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[9]
+set_location_assignment PIN_136 -to in[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[10]
+set_location_assignment PIN_137 -to in[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[11]
+set_location_assignment PIN_138 -to in[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[12]
+set_location_assignment PIN_141 -to in[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[13]
+set_location_assignment PIN_142 -to in[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to in[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[15]
+set_location_assignment PIN_42 -to out[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[14]
+set_location_assignment PIN_39 -to out[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[13]
+set_location_assignment PIN_38 -to out[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[12]
+set_location_assignment PIN_34 -to out[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[11]
+set_location_assignment PIN_33 -to out[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[10]
+set_location_assignment PIN_32 -to out[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[9]
+set_location_assignment PIN_31 -to out[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[8]
+set_location_assignment PIN_30 -to out[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[7]
+set_location_assignment PIN_28 -to out[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[6]
+set_location_assignment PIN_11 -to out[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[5]
+set_location_assignment PIN_10 -to out[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[4]
+set_location_assignment PIN_7 -to out[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[3]
+set_location_assignment PIN_4 -to out[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[2]
+set_location_assignment PIN_3 -to out[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[1]
+set_location_assignment PIN_2 -to out[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to out[0]
+set_location_assignment PIN_1 -to out[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[10]
+set_location_assignment PIN_121 -to pc[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[9]
+set_location_assignment PIN_120 -to pc[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[8]
+set_location_assignment PIN_119 -to pc[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[7]
+set_location_assignment PIN_115 -to pc[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[6]
+set_location_assignment PIN_114 -to pc[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[5]
+set_location_assignment PIN_113 -to pc[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[4]
+set_location_assignment PIN_112 -to pc[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[3]
+set_location_assignment PIN_111 -to pc[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[2]
+set_location_assignment PIN_110 -to pc[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[1]
+set_location_assignment PIN_106 -to pc[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pc[0]
+set_location_assignment PIN_105 -to pc[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[15]
+set_location_assignment PIN_103 -to q[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[14]
+set_location_assignment PIN_100 -to q[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[13]
+set_location_assignment PIN_99 -to q[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[12]
+set_location_assignment PIN_98 -to q[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[11]
+set_location_assignment PIN_86 -to q[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[10]
+set_location_assignment PIN_85 -to q[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[9]
+set_location_assignment PIN_84 -to q[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[8]
+set_location_assignment PIN_83 -to q[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[7]
+set_location_assignment PIN_80 -to q[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[6]
+set_location_assignment PIN_79 -to q[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[5]
+set_location_assignment PIN_77 -to q[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[4]
+set_location_assignment PIN_76 -to q[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[3]
+set_location_assignment PIN_75 -to q[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[2]
+set_location_assignment PIN_74 -to q[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[1]
+set_location_assignment PIN_73 -to q[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to q[0]
+set_location_assignment PIN_72 -to q[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
+set_location_assignment PIN_46 -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk2
+set_location_assignment PIN_44 -to clk2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to flag0
+set_location_assignment PIN_50 -to flag0
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to flagf
+set_location_assignment PIN_49 -to flagf
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to jmp
+set_location_assignment PIN_64 -to jmp
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rtn
+set_location_assignment PIN_55 -to rtn
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to wren
+set_location_assignment PIN_60 -to wren
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to wr
+set_location_assignment PIN_58 -to wr
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rstn
+set_location_assignment PIN_87 -to rstn
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rst
+set_location_assignment PIN_53 -to rst
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rr
+set_location_assignment PIN_54 -to rr
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to datain
+set_location_assignment PIN_51 -to datain
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dataout
+set_location_assignment PIN_52 -to dataout
+set_global_assignment -name FORCE_CONFIGURATION_VCCIO ON
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[15]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[14]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[13]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[12]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[11]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[10]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[9]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[8]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to q[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[10]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[9]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[8]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to pc[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[8]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[9]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to clk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to clk2
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to clk_ext
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to datain
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to dataout
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to flag0
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to flagf
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[15]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[14]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[13]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[10]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to jmp
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[15]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[14]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[13]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[12]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to out[11]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[11]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[12]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to wren
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[10]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[9]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[8]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to in[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to rr
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to rst
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to rstn
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to rtn
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to wr
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name USE_TIMEQUEST_TIMING_ANALYZER OFF
+set_global_assignment -name FMAX_REQUIREMENT "20 MHz"
+set_global_assignment -name TPD_REQUIREMENT "10 us"
+set_global_assignment -name TSU_REQUIREMENT "2 ns"
+set_global_assignment -name TCO_REQUIREMENT "10 us"
+set_global_assignment -name TH_REQUIREMENT "2 ns"
+set_global_assignment -name ENABLE_CLOCK_LATENCY ON
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to qram
+set_location_assignment PIN_66 -to qram
+set_instance_assignment -name CURRENT_STRENGTH_NEW 4MA -to qram
+set_global_assignment -name VHDL_FILE io_adr_decoder.vhd
+set_global_assignment -name VHDL_FILE in_mux.vhd
+set_global_assignment -name VHDL_FILE inst_dec.vhd
+set_global_assignment -name SOURCE_FILE lpm_counter0.cmp
+set_global_assignment -name QIP_FILE lpm_counter0.qip
+set_global_assignment -name VHDL_FILE lpm_counter0.vhd
+set_global_assignment -name SOURCE_FILE lpm_ff0.cmp
+set_global_assignment -name QIP_FILE lpm_ff0.qip
+set_global_assignment -name VHDL_FILE lpm_ff0.vhd
+set_global_assignment -name SOURCE_FILE lpm_ff1.cmp
+set_global_assignment -name QIP_FILE lpm_ff1.qip
+set_global_assignment -name VHDL_FILE lpm_ff1.vhd
+set_global_assignment -name SOURCE_FILE lpm_ff2.cmp
+set_global_assignment -name QIP_FILE lpm_ff2.qip
+set_global_assignment -name VHDL_FILE lpm_ff2.vhd
+set_global_assignment -name SOURCE_FILE lpm_mux0.cmp
+set_global_assignment -name QIP_FILE lpm_mux0.qip
+set_global_assignment -name VHDL_FILE lpm_mux0.vhd
+set_global_assignment -name SOURCE_FILE lpm_mux1.cmp
+set_global_assignment -name QIP_FILE lpm_mux1.qip
+set_global_assignment -name VHDL_FILE lpm_mux1.vhd
+set_global_assignment -name SOURCE_FILE lpm_ram_dq0.cmp
+set_global_assignment -name QIP_FILE lpm_ram_dq0.qip
+set_global_assignment -name VHDL_FILE lpm_ram_dq0.vhd
+set_global_assignment -name SOURCE_FILE lpm_ram_dq1.cmp
+set_global_assignment -name QIP_FILE lpm_ram_dq1.qip
+set_global_assignment -name VHDL_FILE lpm_ram_dq1.vhd
+set_global_assignment -name SOURCE_FILE lpm_rom0.cmp
+set_global_assignment -name QIP_FILE lpm_rom0.qip
+set_global_assignment -name VHDL_FILE lpm_rom0.vhd
+set_global_assignment -name VHDL_FILE lu_table.vhd
+set_global_assignment -name BDF_FILE mc14500.bdf
+set_global_assignment -name BDF_FILE mc14500cpu.bdf
+set_global_assignment -name VHDL_FILE out_mux.vhd
+set_global_assignment -name VHDL_FILE rst_sync.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE mc14500cpu.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Gate.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Dice.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Counter.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Latch.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Gate4.vwf
+set_global_assignment -name BDF_FILE adr_decoder.bdf
+set_global_assignment -name VHDL_FILE ram_w_dec.vhd
+set_global_assignment -name QIP_FILE altpll0.qip
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Dice.vwf
